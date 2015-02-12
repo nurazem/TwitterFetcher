@@ -10,7 +10,7 @@ set serializer => 'JSON';
 my $twitter = Net::Twitter->new(
     traits              => [qw/API::RESTv1_1/],
     consumer_key        => $ENV{'TWITTER_CONSUMER_KEY'} || config->{consumer_key},
-    consumer_secret     => $ENV{'TWITTER_CONSUMER_KEY'} || config->{consumer_secret},
+    consumer_secret     => $ENV{'TWITTER_CONSUMER_SECRET'} || config->{consumer_secret},
     access_token        => $ENV{'TWITTER_ACCESS_TOKEN'} || config->{access_token},
     access_token_secret => $ENV{'TWITTER_ACCESS_TOKEN_SECRET'} || config->{access_token_secret},
 );
