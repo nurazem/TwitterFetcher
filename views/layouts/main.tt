@@ -5,6 +5,7 @@
 <meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
 <title>TwitterFetcher</title>
 <link rel="stylesheet" href="<% request.uri_base %>/css/style.css" />
+<link rel="stylesheet" href="<% request.uri_base %>/css/bootstrap.min.css" />
 
 <!-- Grab jQuery from a CDN, fall back to local if necessary -->
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -13,10 +14,7 @@
 /* ]]> */</script>
 
 </head>
-<body>
-<% content %>
-<div id="footer">
-Powered by <a href="http://perldancer.org/">Dancer</a> <% dancer_version %>
-</div>
-</body>
+  <body>
+    <% content %>
+  </body>
 </html>
