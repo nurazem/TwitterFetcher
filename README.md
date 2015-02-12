@@ -11,18 +11,22 @@ This is a Perl app which has 2 features:
 
         git clone https://github.com/nurazem/TwitterFetcher
 
+
 2. Install cpanm:
 
     cpan App::cpanminus
+
 
 3. Go to project root and install dependencies (this might take around 5 minutes):
 
     cd TwitterFetcher
     perl cpanm --installdeps .
 
+
 4. Start the web server:
 
     bin/app.pl
+
 
 ## Configuration
 
@@ -60,8 +64,9 @@ The app won't work yet because we don't have Twitter OAuth keys.
     export TWITTER_ACCESS_TOKEN_SECRET=your_access_token
     ```
 
-4. Enjoy :)
+## Testing
 
+Tests are located at `t` directory. To run a test we must indicate where the required modules are located, hence we should of `-I` together with a directory where out main module is defined:
 
-
+    perl -I lib t/004_intersection_route.t
 
