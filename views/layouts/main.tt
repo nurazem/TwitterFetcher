@@ -4,11 +4,11 @@
     <meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
     <title>TwitterFetcher</title>
 
-    <link rel="stylesheet" href="<% request.uri_base %>/css/style.css" />
-    <link rel="stylesheet" href="<% request.uri_base %>/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
 
-    <script type="text/javascript" src="<% request.uri_base %>/javascripts/jquery.min.js"></script>
-    <script type="text/javascript" src="<% request.uri_base %>/javascripts/main.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/main.js"></script>
   </head>
   <body>
     <% content %>
